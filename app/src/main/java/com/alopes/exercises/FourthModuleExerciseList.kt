@@ -1,12 +1,10 @@
 package com.alopes.exercises
 
-class FourthModuleExercise {
-}
 
 fun main() {
     /*************** Lista de inteiros e filtros ***************/
 
-    var myIntList: MutableList<Int> = mutableListOf()
+    val myIntList: MutableList<Int> = mutableListOf()
 
         for (i in 0..98 step 1) {
                 myIntList.add(i, i +1)

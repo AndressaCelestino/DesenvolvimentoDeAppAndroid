@@ -1,7 +1,5 @@
 package com.alopes.exercises
 
-class FourthModuleClasses {
-}
 
 fun main() {
     //val concat: (String, String) -> Unit = {val1,val2 -> println(val1+val2)}
@@ -15,8 +13,8 @@ fun main() {
     val result = 15.0 mySum 10.0
     println(result)
 
-    firstHighOrderFunction("Hello ", "world!!!",{val1,val2 -> println(val1+val2)})
-    firstHighOrderFunction("November ", "Autumn",{val1: String, val2: String -> println("$val1 has ${val1.length} letters and $val2 has ${val2.length} letters ")})
+    firstHighOrderFunction("Hello ", "world!!!"){val1,val2 -> println(val1+val2)}
+    firstHighOrderFunction("November ", "Autumn"){val1: String, val2: String -> println("$val1 has ${val1.length} letters and $val2 has ${val2.length} letters ")}
 
 
     val listNumber = listOf(1,2,3,4,5,6,7,8,9)

@@ -13,11 +13,12 @@ fun main() {
     val operationSelectiion: String = (readln())
     print(" O resultado de $number1 $operationSelectiion $number2 é: ")
 
-    when{
-        operationSelectiion == "+" -> calculator(number1 ,number2, ::sum)
-        operationSelectiion == "-" -> calculator(number1,number2, ::subtraction)
-        operationSelectiion == "*" -> calculator(number1,number2, ::multiplication)
-        operationSelectiion == "/" -> calculator(number1,number2, ::division)
+    when(operationSelectiion){
+         "+" -> calculator(number1 ,number2, ::sum)
+         "-" -> calculator(number1,number2, ::subtraction)
+         "*" -> calculator(number1,number2, ::multiplication)
+         "/" -> calculator(number1,number2, ::division)
+        else -> print("Operação Invalida")
     }
 
 }
