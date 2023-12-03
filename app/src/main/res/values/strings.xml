@@ -1,13 +1,3 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">Minha primeira tela</string>
-    <string name="second_fragment_label">Segunda tela</string>
-    <string name="next">Próxima</string>
-    <string name="previous">Anterior</string>
-
-    <string name="lorem_ipsum">
-        Eu amo progamar
-    </string>
+    <string name="app_name">Variaveis</string>
 </resources>
