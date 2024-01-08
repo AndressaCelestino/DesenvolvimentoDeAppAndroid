@@ -1,13 +1,9 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">Minha primeira tela</string>
-    <string name="second_fragment_label">Segunda tela</string>
-    <string name="next">Próxima</string>
-    <string name="previous">Anterior</string>
-
-    <string name="lorem_ipsum">
-        Eu amo progamar
-    </string>
+    <string name="app_name">EBAC</string>
+    <string name="user_name">Andressa Regina Lopes Celestino</string>
+    <string name="phone_number">+351 913 887 450</string>
+    <string name="email">andressa.lopes.090c@gmail.com</string>
+    <string name="adress">Rua de Barros Lima 817, Porto Portugal</string>
+    <string name="linkedin">www.linkedin.com/in/andressa-regina-lopes-celestino-2a5ba1135</string>
+    <string name="introduction">Engenheira de controle e automação, com 14 anos de experiência em automação industrial como programadora de PLCs, iniciando a sua jornada em desenvolvimento de aplicativos Android.  </string>
 </resources>
