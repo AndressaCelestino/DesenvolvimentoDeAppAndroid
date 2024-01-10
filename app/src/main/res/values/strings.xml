@@ -1,9 +1,4 @@
 <resources>
-    <string name="app_name">EBAC</string>
-    <string name="user_name">Andressa Regina Lopes Celestino</string>
-    <string name="phone_number">+351 913 887 450</string>
-    <string name="email">andressa.lopes.090c@gmail.com</string>
-    <string name="adress">Rua de Barros Lima 817, Porto Portugal</string>
-    <string name="linkedin">www.linkedin.com/in/andressa-regina-lopes-celestino-2a5ba1135</string>
-    <string name="introduction">Engenheira de controle e automação, com 14 anos de experiência em automação industrial como programadora de PLCs, iniciando a sua jornada em desenvolvimento de aplicativos Android.  </string>
+    <string name="app_name">EighthModule</string>
+    <string name="textEditLabel">Digite o seu nome</string>
 </resources>

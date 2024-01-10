@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.alopes.ebac"
+    namespace = "com.alopes.eighthmodule"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.alopes.ebac"
+        applicationId = "com.alopes.eighthmodule"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -33,6 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildToolsVersion = "34.0.0"
 }
 
 dependencies {
