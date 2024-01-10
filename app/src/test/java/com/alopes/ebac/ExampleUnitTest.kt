@@ -1,4 +1,4 @@
-package com.alopes.ninthmodule
+package com.alopes.ebac
 
 import org.junit.Test
 

@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NinthModule"
+rootProject.name = "EBAC"
 include(":app")
+ 
