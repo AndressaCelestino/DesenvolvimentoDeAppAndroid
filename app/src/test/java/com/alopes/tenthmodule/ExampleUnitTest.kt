@@ -1,4 +1,4 @@
-package com.alopes.helloworld
+package com.alopes.tenthmodule
 
 import org.junit.Test
 
