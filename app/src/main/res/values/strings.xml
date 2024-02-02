@@ -1,13 +1,17 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">Minha primeira tela</string>
-    <string name="second_fragment_label">Segunda tela</string>
-    <string name="next">Próxima</string>
-    <string name="previous">Anterior</string>
+    <string name="app_name">Jokenpô</string>
+    <string name="mainActivity_text"> Bem vindo ao Jokenpô </string>
+    <string name="button_title">Iniciar</string>
+    <string name="finish_button_title">Finalizar Activity</string>
+    <string name="first_player">Jogador 1</string>
+    <string name="second_player">Jogador 2</string>
+    <string name="menu_save_title">Salvar</string>
+    <string name="menu_restart_title">Reiniciar</string>
+    <string name="drawer_player1_title">Jogador 1</string>
+    <string name="drawer_results_title">Resultados</string>
+    <string name="bottom_nav_title_1">Jogador 1</string>
+    <string name="bottom_nav_title_2">Resultados</string>
+    <string name="title_activity_main3">Resultado</string>
+    <string name="result_activity_main3">O jogador xxx ganhou</string>
 
-    <string name="lorem_ipsum">
-        Eu amo progamar
-    </string>
 </resources>
