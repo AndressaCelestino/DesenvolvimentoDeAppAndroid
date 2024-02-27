@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/drawer_player1"
-        android:title="@string/drawer_player1_title"/>
+        android:id="@+id/homeFragment"
+        android:title="home"/>
 
-    <item
-        android:id="@+id/drawer_results"
-        android:title="@string/drawer_results_title"/>
 </menu>

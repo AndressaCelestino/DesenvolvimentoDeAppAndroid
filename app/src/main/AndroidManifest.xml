@@ -12,24 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EleventhModule"
         tools:targetApi="31">
-        <activity
-            android:name=".MainActivity3"
-            android:exported="false"
-            android:label="@string/title_activity_main3"
-            android:theme="@style/Theme.EleventhModule.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity2" />
-        </activity>
 
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false"
-            android:theme="@style/Theme.EleventhModule.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -40,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
