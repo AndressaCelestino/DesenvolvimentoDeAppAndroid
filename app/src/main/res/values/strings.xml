@@ -9,7 +9,7 @@
     <string name="menu_restart_title">Reiniciar</string>
     <string name="drawer_player1_title">Jogador 1</string>
     <string name="drawer_results_title">Resultados</string>
-    <string name="bottom_nav_title_1">Jogador 1</string>
+    <string name="bottom_nav_title_1">Jogador</string>
     <string name="bottom_nav_title_2">Resultados</string>
     <string name="title_activity_main3">Resultado</string>
     <string name="result_activity_main3">O jogador xxx ganhou</string>
