@@ -3,6 +3,7 @@ package com.alopes.eleventhmodule
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavController
@@ -47,9 +48,18 @@ class MainActivity : AppCompatActivity() {
         val appBarConfiguration =
             AppBarConfiguration(setOf(R.id.playerFragment, R.id.resultFragment), drawer)
 
+        navController.addOnDestinationChangedListener{_,destination,_ ->
+            when(destination.id){
+                R.id.homeFragment -> bottomNav.visibility = View.GONE
+                    else -> bottomNav.visibility = View.VISIBLE
+            }
+        }
+
         setupActionBarWithNavController(navController, appBarConfiguration)
         navDrawer.setupWithNavController(navController)
         bottomNav.setupWithNavController(navController)
+
+
     }
    override fun onSupportNavigateUp(): Boolean {
        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
