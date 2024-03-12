@@ -4,7 +4,6 @@
 
     <item
         android:id="@+id/homeFragment"
-        android:title="@string/menu_restart_title"
-        app:showAsAction="never"/>
+        android:title="@string/menu_restart_title" />
 
 </menu>

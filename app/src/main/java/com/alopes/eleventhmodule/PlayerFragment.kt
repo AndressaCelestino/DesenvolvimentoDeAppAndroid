@@ -13,11 +13,11 @@ import androidx.navigation.ui.onNavDestinationSelected
 import com.alopes.eleventhmodule.databinding.FragmentPlayerBinding
 
 class PlayerFragment : Fragment() {
-    lateinit var root: View
+    private lateinit var root: View
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         val binding = FragmentPlayerBinding.inflate(inflater,container,false)
         root = binding.root
 

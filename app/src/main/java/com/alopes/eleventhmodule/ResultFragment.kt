@@ -14,12 +14,12 @@ import com.alopes.eleventhmodule.databinding.FragmentPlayerBinding
 
 
 class ResultFragment : Fragment() {
-    lateinit var root: View
+    private lateinit var root: View
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         val binding = FragmentPlayerBinding.inflate(inflater,container,false)
         root = binding.root
 

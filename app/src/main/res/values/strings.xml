@@ -2,18 +2,14 @@
     <string name="app_name">Jokenpô</string>
     <string name="mainActivity_text"> Bem vindo ao Jokenpô </string>
     <string name="button_title">Iniciar</string>
-    <string name="finish_button_title">Finalizar Activity</string>
     <string name="first_player">Jogador 1</string>
-    <string name="second_player">Jogador 2</string>
-    <string name="menu_save_title">Salvar</string>
     <string name="menu_restart_title">Reiniciar</string>
-    <string name="drawer_player1_title">Jogador 1</string>
+    <string name="menu_home_title">Home</string>
     <string name="drawer_results_title">Resultados</string>
     <string name="bottom_nav_title_1">Jogador</string>
     <string name="bottom_nav_title_2">Resultados</string>
     <string name="title_activity_main3">Resultado</string>
     <string name="result_activity_main3">O jogador xxx ganhou</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>
