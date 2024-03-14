@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.onNavDestinationSelected
 import com.alopes.eleventhmodule.databinding.FragmentPlayerBinding
+import com.alopes.eleventhmodule.databinding.FragmentResultBinding
 
 
 class ResultFragment : Fragment() {
@@ -20,7 +21,7 @@ class ResultFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val binding = FragmentPlayerBinding.inflate(inflater,container,false)
+        val binding = FragmentResultBinding.inflate(inflater,container,false)
         root = binding.root
 
         setHasOptionsMenu(true)

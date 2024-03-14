@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
         navDrawer = binding.navView
         bottomNav = binding.bottomNav
 
-
         appBarConfiguration =
             AppBarConfiguration(setOf(R.id.playerFragment, R.id.resultFragment), drawer)
 
@@ -55,7 +54,6 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navDrawer.setupWithNavController(navController)
         bottomNav.setupWithNavController(navController)
-
 
     }
    override fun onSupportNavigateUp(): Boolean {
